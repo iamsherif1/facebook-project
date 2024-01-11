@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(201, 98, 98);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-weight: 100px;
+    font-style: normal;
+
+    margin: 0%;
+}
+nav {
+    background-color:  rgb(81, 170, 185);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+   margin: 0%;
+}
+
+fieldset {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+header {
+    background-color:  rgb(81, 170, 185);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-bottom: 30px;
+}
+h1 {
+    margin-left: 530px;
+}
+h3 {
+    text-align: center;
+}
+
+a {
+   
+    color:  rgb(29, 24, 24);
+}
+
+a:hover {
+ color: brown;
+}
+
+a:active {
+    color: blue;
+}
+
+.new {
+    border-width: 5px;
+    color: rgba(0, 255, 72, 0.679);
+    border-style: groove;
+
+    width: 950px;
+   
+}
+img {
+    margin-left: 700px;
+}
+div {
+    border-width: 10px;
+    color: rgb(255, 0, 191);
+    border-style: groove;
+    background-color: rgb(167, 167, 80);
+
+    width: 400px;
+}
+
+hr {
+    border-color: rgb(81, 170, 185);
+    border-width: 10px;
+    border-radius: 7%;
+    border-style: groove;
+    margin-top: 500px;
+}
+.par, .par2, .par3, .par4, .par5 {
+    text-align: center;
+    color: rgb(29, 24, 24);
+    font-size: 25px;
+    
+}

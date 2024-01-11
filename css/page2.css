@@ -1,0 +1,111 @@
+body{
+    background-color: azure;
+   color: black;
+   font-size: 19px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 0%;
+}
+header {
+    background-color:  #1877f2;
+    color: azure;
+margin-bottom: 150px;
+}
+h2 {
+    display: inline-flex;
+}
+.label-class {
+ margin-left: 800px;
+    font-size: 17px;
+}
+.facebook {
+    margin-left: 10px;
+}
+
+img {
+    width: 400px;
+}
+
+p{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.wrapper {
+    margin-left: 50px;
+}
+
+.container { 
+    width: 50%
+    
+    margin: 0% auto;
+    }
+    aside {
+        float: right;
+        width: 30%;
+    }
+    section {  
+    float: left;
+    width: 50%;
+    margin-bottom: 70px;
+}
+input {
+    margin-bottom: 10px;
+    border-style: solid;
+}
+fieldset:invalid ~ fieldset {
+   display: none;
+}
+
+.new-norm {
+   margin-right: 30px;
+}
+.norm fieldset { /*
+    background-color: white;
+    border-color: white;
+    border-style:none; */
+
+
+    
+    background-color: azure;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 0px 0 0;
+    padding-left: 50px;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+fieldset {
+    background-color: azure;
+    align-items: center;
+    border-radius: 30px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+ border:none;
+}
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+
+#first, #last, #email1, #passw, #confirm {
+    border: 5%;
+    border-radius: 6px;
+    border-color: #1877f2;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+#first, #last, #email1, #passw, 
+#confirm:valid ~ #first, #last, #email1, #passw, #confirm {
+   border-color: #1877f2;
+}
